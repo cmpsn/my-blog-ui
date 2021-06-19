@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* KATEX - Make individual display equations scrollable horizontally */
+.katex-display { overflow: auto hidden !important }
+
+/* KATEX - Allow line breaks in display equations */
+/* .katex-display > .katex { white-space: normal } */
+/* Add space between broken lines: */
+/* .katex-display > .base { margin: 0.25em 0 } */
+/* Compensate by reducing space around display math */
+/* .katex-display { margin: 0.5em 0; } */
+
+/* .image-placeholder {
+  background-image: url('/syntax-highlight-1-500x263-q80.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.changing {
+  will-change: opacity;
+} */
